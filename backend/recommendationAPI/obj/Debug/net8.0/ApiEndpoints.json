@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "backend.Controllers.CollaborativeFilteringController",
+    "Method": "GetRecommendations",
+    "RelativePath": "api/CollaborativeFiltering",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
