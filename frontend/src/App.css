@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+select,
+select option {
+  font-size: 18px !important;
+  padding: 10px;
+  min-height: 40px;
+  font-family: sans-serif;
+}
+
+.dropdown,
+.dropdown option {
+  font-size: 18px !important;
+  padding: 10px;
+}
+
