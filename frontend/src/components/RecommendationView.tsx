@@ -15,7 +15,8 @@ const RecommendationView = () => {
   const [contentIds, setContentIds] = useState<string[]>([]);
   const [options, setOptions] = useState<Option[]>([]);
   const [selectedOption, setSelectedOption] = useState<Option | null>(null);
-  const [recommendation, setRecommendation] = useState<RecommendationComparison | null>(null);
+  const [recommendation, setRecommendation] =
+    useState<RecommendationComparison | null>(null);
   const [error, setError] = useState('');
 
   // Load content IDs
@@ -25,7 +26,7 @@ const RecommendationView = () => {
         setContentIds(ids);
         const opts = ids.map((id) => ({
           value: id,
-          label: `${id}...`, // or just `id` if you want full
+          label: `${id}...`,
         }));
         setOptions(opts);
       })
@@ -71,7 +72,7 @@ const RecommendationView = () => {
           <h3>If you liked:</h3>
           <p>{recommendation.ifYouLiked}</p>
 
-          <div style={{ display: 'flex', gap: '3rem' }}>
+          <div style={{ display: 'flex', gap: '3rem', flexWrap: 'wrap' }}>
             <div>
               <h4>Collaborative Filtering</h4>
               <ul>
@@ -86,6 +87,15 @@ const RecommendationView = () => {
               <ul>
                 {recommendation.contentRecommendations.map((rec, i) => (
                   <li key={i}>{rec}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h4>Azure ML Recommendations</h4>
+              <ul>
+                {recommendation.azureRecommendations.map((rec, i) => (
+                  <li key={i}>ID: {rec}</li>
                 ))}
               </ul>
             </div>

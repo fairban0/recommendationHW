@@ -6,5 +6,9 @@ namespace backend.Data
         public string IfYouLiked { get; set; } = string.Empty;
         public List<string> CollaborativeRecommendations { get; set; } = new();
         public List<string> ContentRecommendations { get; set; } = new();
+
+        public List<string> AzureRecommendations { get; set; } = new();
+
+
     }
 }
