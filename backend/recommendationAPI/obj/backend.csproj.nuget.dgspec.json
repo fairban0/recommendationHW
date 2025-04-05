@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kfair\\OneDrive\\Desktop\\RecommendationHW\\backend\\recommendationAPI\\backend.csproj": {}
+    "C:\\Users\\rache\\OneDrive\\Documents\\GitHub\\recommendationHW\\backend\\recommendationAPI\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kfair\\OneDrive\\Desktop\\RecommendationHW\\backend\\recommendationAPI\\backend.csproj": {
+    "C:\\Users\\rache\\OneDrive\\Documents\\GitHub\\recommendationHW\\backend\\recommendationAPI\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kfair\\OneDrive\\Desktop\\RecommendationHW\\backend\\recommendationAPI\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\rache\\OneDrive\\Documents\\GitHub\\recommendationHW\\backend\\recommendationAPI\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\kfair\\OneDrive\\Desktop\\RecommendationHW\\backend\\recommendationAPI\\backend.csproj",
-        "packagesPath": "C:\\Users\\kfair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kfair\\OneDrive\\Desktop\\RecommendationHW\\backend\\recommendationAPI\\obj\\",
+        "projectPath": "C:\\Users\\rache\\OneDrive\\Documents\\GitHub\\recommendationHW\\backend\\recommendationAPI\\backend.csproj",
+        "packagesPath": "C:\\Users\\rache\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rache\\OneDrive\\Documents\\GitHub\\recommendationHW\\backend\\recommendationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kfair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rache\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
